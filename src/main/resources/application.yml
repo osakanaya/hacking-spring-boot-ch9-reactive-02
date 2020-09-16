@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 814442641003-ifmrh2g4ue0fulvabpu3pi10mog9r8m3.apps.googleusercontent.com
+            client-secret: h8qsh07VdvF7hLCCVQytn3uY
+
+  webflux:
+    hiddenmethod:
+      filter:
+        enabled: true
